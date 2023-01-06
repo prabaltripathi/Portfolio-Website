@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.video {
+    border-radius: 3%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flexnav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #A8C8D8; */
+    background-color: #6C97A7;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+.contactus {
+    margin-right: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.navleft {
+    color: White;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.center {
+    padding: 0 5px;
+}
+
+.navleft {
+    margin-left: 10px;
+}
+
+.c1left {
+    padding-top: 20px;
+    padding-left: 10%;
+}
+h1 {
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 72px;
+    color: #244C88;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px;
+}
+p {
+    font-size: 30px;
+    padding-top: 2%;
+    font-family: 'Caveat', cursive;
+}
+
+.lefthead {
+    font-size: 3rem;
+    margin-left: 1vw;
+}
+
+.righthead {
+    font-size: 3rem;
+    margin-right: 1vw;
+}
+
+.mid {
+    margin: 3em;
+}
+
+.icons {
+    text-align: center;
+    margin: 52px;
+}
+
+.contact {
+    margin-top: 32px;
+    margin-bottom: 40px;
+    font-size: 61px;
+    margin-right: 10px;
+}
+
+button {
+    margin-bottom: 40px;
+    width: 133px;
+    height: 44px;
+    color: black;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.lead {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#textarea {
+    border: 2px solid black;
+}
+
+body {
+    background-color: #C6E5F4;
+}
+
+h3 {
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+h2,
+li {
+    font-family: 'Pacifico', cursive;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+}
