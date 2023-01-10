@@ -7,37 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prabal Tripathi</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('YOUR_PUBLIC_KEY');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function () {
-                        console.log('SUCCESS!');
-                    }, function (error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
-    </style>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap'); </style> 
 </head>
-
 <body>
     <header id="home">
         <nav class="flexnav" style="height:7vh; position: fixed; margin: 0; width: 100vw;">
@@ -65,113 +38,86 @@
                     needs.</p>
             </div>
             <div class="c1right">
-                <img class="img1" src="image/dp.png" alt="Prabal's picture" width="550">
+                <img class="img1" src="image/dp.png" alt="Prabal's picture">
             </div>
         </div>
     </header>
     <br>
     <main>
         <section id="services">
-            <h1 style="text-align: center;" style="margin-bottom: 20px;">Services</h1>
+            <h1 style="text-align: center;">Services</h1>
             <div class="flexnav mid">
                 <div>
                     <h3 class="lefthead">UI/UX Designing</h3>
-                    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sequi
-                        voluptate nam nostrum fugiat ratione
-                        aspernatur quaerat deleniti consequatur cum nobis cupiditate voluptatibus maiores, cumque
-                        repudiandae
-                        minus earum aliquam sint saepe odit ut in. Voluptates.</p>
+                    <p class="para">UI/UX Designing is something which I started after entering the field of Web Development.I have just covered some basic things and still have a log way to go.Hopefully, I will be able to perform much better in future in this particular field</p>
                 </div>
-                <img src="image/ui.jpg" alt="error" width="450">
+                <img class="image" src="image/ui.jpg" alt="error">
             </div>
             <div class="flexnav mid">
-                <img src="image/web.jpg" alt="error" width="450">
-                <div class="para">
+                <img class="image" src="image/web.jpg" alt="error">
+                <div>
                     <h3 class="righthead">Web Development</h3>
-                    <p style="margin-right: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sequi
-                        voluptate nam nostrum fugiat ratione
-                        aspernatur quaerat deleniti consequatur cum nobis cupiditate voluptatibus maiores, cumque
-                        repudiandae
-                        minus earum aliquam sint saepe odit ut in. Voluptates.</p>
+                    <p class="para" >As a Developer,Web Development is my strongest sector.I am still new to it but I am loving it.I like to learn every basics of it and Hopefully there will be many great projects on Web Development in future which you all would definitely like.</p>
                 </div>
             </div>
             <div class="flexnav mid">
-                <div class="para">
+                <div >
                     <h3 class="lefthead">Oratory</h3>
-                    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sequi
-                        voluptate nam nostrum fugiat ratione
-                        aspernatur quaerat deleniti consequatur cum nobis cupiditate voluptatibus maiores, cumque
-                        repudiandae
-                        minus earum aliquam sint saepe odit ut in. Voluptates.</p>
+                    <p class="para">One thing that I love doing is Public speaking and Oratory is A similar kind of thing wherein you stand on stage and dictate over the crowd with confidence and optimism.I think </p>
                 </div>
-                <img src="image/oratory.jpg" alt="error" width="450">
+                <img class="image" src="image/oratory.jpg" alt="error">
             </div>
             <div class="flexnav mid">
-                <img src="image/vid.jpg" alt="error" width="450">
+                <img class="image" src="image/vid.jpg" alt="error">
                 <div class="para">
-                    <h3 class="righthead">Video Editor</h3>
-                    <p style="margin-right: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sequi
-                        voluptate nam nostrum fugiat ratione
-                        aspernatur quaerat deleniti consequatur cum nobis cupiditate voluptatibus maiores, cumque
-                        repudiandae
-                        minus earum aliquam sint saepe odit ut in. Voluptates.</p>
+                    <h3 class="righthead">Video Editing</h3>
+                    <p class="para">Video Editing is something that I love the most.I had already worked on softwares like adobe after effects and adobe premiere pro and I ver often make instagram reels too through mobile Video Editing app VN</p>
                 </div>
             </div>
             <div class="flexnav mid">
-                <div class="para">
+                <div>
                     <h3 class="lefthead">Content Writer</h3>
-                    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sequi
-                        voluptate nam nostrum fugiat ratione
-                        aspernatur quaerat deleniti consequatur cum nobis cupiditate voluptatibus maiores, cumque
-                        repudiandae
-                        minus earum aliquam sint saepe odit ut in. Voluptates.</p>
+                    <p  class="para">I am fond of reading and writing content based on any topic especially on Geo-Political Affairs.I have been a writer for my school and college magazines.I also write Poems,Shayaris and Raps</p>
                 </div>
-                <img src="image/3236267.jpg" alt="error" width="450">
+                <img class="image" src="image/3236267.jpg" alt="error">
             </div>
         </section>
         <aside id="project" class="about">
             <h1 style="text-align: center;">My Projects</h1>
             <div class="flexnav mid">
-                <img src="image/vid.jpg" alt="error" width="450">
-                <div class="para">
+                <img class="image" src="image/vid.jpg" alt="error">
+                <div>
                     <h3 class="righthead">Quiz Portal</h3>
-                    <p style="margin-right: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sequi
-                        voluptate nam nostrum fugiat ratione
-                        aspernatur quaerat deleniti consequatur cum nobis cupiditate voluptatibus maiores, cumque
-                        repudiandae
-                        minus earum aliquam sint saepe odit ut in. Voluptates.</p>
+                    <p class="para">I recently developed an online Quix Portal through Java Script.There will be many such projects coming up.My Quiz portal project is already deployed on Github.</p>
                 </div>
             </div>
         </aside>
-        <h1 style="text-align: center; margin-bottom: 35px;">About Me</h1>
-        <article id="about" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-            <video class="video" width="1000" controls>
+        <h1 style="text-align: center;">About Us</h1>
+        <article id="about" style=" height:100vh; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <video class="video" controls>
                 <source src="video.mp4" type="video/mp4">
             </video>
-            <p style="font-weight: 300;">No!No! not much now.If you want to know more about me.Use the section down
-                below to mail me.</p>
         </article>
         <br>
     </main>
     <footer id="contactus" class="about" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <h1 class="contact" style="text-align: center;">Contact Me</h1>
+        <h1 class="contact" style="text-align: center; padding: 10px 0;">Contact Us</h1>
         <br>
+        <div class="form">
         <form id="contact-form">
-            <textarea id="textarea" placeholder="Your Message Goes Here" cols="60" rows="20"
-                style="margin-bottom: 20px; border: 5px solid #6C97A7" name="message"></textarea>
+            <label for="fname" style="font-family: 'Catamaran', sans-serif; color:#244C88;">Your Name:</label><br>
+            <input class="input1"><br>
+            <label for="lname" style="font-family: 'Catamaran', sans-serif;color:#244C88;">Your Message:</label><br>
+            <textarea class="input2"></textarea>
         </form>
-        <input type="submit" value="submit" style="width: 130px; height: 40px; margin: 40px 0px; background-color: #2E9096;">
-        <div>
-            <a class="icons" href="https://www.instagram.com/prabaltripathi1/"><img src="image/instagram.png"></a>
-            <a class="icons" href="https://www.facebook.com/prabal.tripathi.54"><img src="image/facebook.png"></a>
-            <a class="icons" href="https://mobile.twitter.com/PrabalOnTwt"><img src="image/twitter.png"></a>
-            <a class="icons" href="https://github.com/prabaltripathi"><img src="image/github.png"></a>
-            <br>
+        <input class="btn" type="submit" value="submit" style=" border:2px solid white;width: 9rem; height: 2rem; margin: 3rem 3rem 5rem 2rem; background-color: #2e9196;">
         </div>
-        <p>&copy 2023 Prabal Tripathi</p>;
-
-
-
+        <div class="footer">
+            <a class="icons" href="https://www.instagram.com/prabaltripathi1/">Instagram</a>
+            <a class="icons" href="https://www.facebook.com/prabal.tripathi.54">Facebook</a>
+            <a class="icons" href="https://mobile.twitter.com/PrabalOnTwt">Twitter</a>
+            <a class="icons" href="https://github.com/prabaltripathi">Github</a>
+        </div>
 </body>
 
 </html>
