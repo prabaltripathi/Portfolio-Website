@@ -94,7 +94,7 @@ p {
 .video {
     border-radius: 3%;
     border: 3px solid  #244C88;
-    width: 67vw;
+    width: 67%;
 }
 .contactus {
     margin-right: 10px;
@@ -123,7 +123,7 @@ li {
 }
 
 .about {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 .btn{
@@ -138,7 +138,7 @@ padding: 7px;
 .footer
 {
     background-color: rgba(108, 151, 167, 0.351);
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +146,7 @@ padding: 7px;
 }
 .form{
     box-sizing: border-box;
-    width: 31vw;
+    width: 31%;
     display: flex;
     row-gap: 3px;
     flex-direction: column;
@@ -184,4 +184,65 @@ a.icons:hover{
     text-decoration: underline ;
     text-decoration-color: white ;
 }
-@media only screen and (max-width: 600px)
+.hamburger{
+    display: none;
+    color: white;
+    font-size: 21px;
+}
+@media only screen and (max-width: 1196px)
+{
+    .contactus,ul{
+        display:none;
+    }
+    .hamburger{
+        display:block;
+    }
+    .form{
+        width:100%;
+    }
+    .flexnav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rev{
+        flex-direction: column-reverse;
+    }
+    .video{
+        width: 100%;
+    }
+    .c1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+    }
+    br.c1{
+        display:none;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .abc{
+        width: 100%;
+        padding: 0 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    .img1{
+        width: 20%;
+    }
+
+    
+}
